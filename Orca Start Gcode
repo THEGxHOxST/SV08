@@ -1,9 +1,8 @@
 G28
 G90
 G1 X321 F9000
-G1 Y364
-G1 Z0.600 F600
-G1 Y0 F9000
+G1 Y364 F9000
+G1 Z10 F600
 START_PRINT EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]
 G90
 G1 X0 F9000
